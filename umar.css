@@ -1,0 +1,50 @@
+body {
+    background-color: #323437;
+}
+
+
+
+.text select {
+    position: relative;
+    bottom: 160px;
+    border: none;
+    background-color: #323437;
+    outline: #323437;
+    color: #000;
+    left: 92vh;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .7s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.text img {
+    position: relative;
+    left: 90vh;
+    bottom: 150px;
+
+}
+
+.text select:hover {
+    color: white;
+}
+
+textarea {
+    top: 60px;
+    position: relative;
+    width: 80%;
+    height: 190px;
+    font-size: 22px;
+    line-height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: #323437;
+    border-bottom: none;
+    color: darkgray;
+    border: #323437 1px solid;
+    outline: #323437 1px;
+    word-spacing: 18px;
+}
