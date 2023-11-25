@@ -47,4 +47,5 @@ textarea {
     border: #323437 1px solid;
     outline: #323437 1px;
     word-spacing: 18px;
+    resize:none;
 }
