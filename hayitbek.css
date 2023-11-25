@@ -1,29 +1,24 @@
-.lider {
-    margin-top: 100px;
-    display: flex;
+ 
 
+.body{
+    background: url(./images/noutbuk_klaviatura_podsvetka_215877_1280x720.jpg);
 }
 
-.names {
-    gap: 100px;
-    border: 1px solid red;
-}
 
-table th {
-    border: 1px solid rgb(0, 0, 0);
-    border-width: 3px;
-}
-
-table td {
-    border: 1px solid black;
-    border-width: 3px; 
-    background-color: rgb(117, 117, 117);     
-}
-
-table tr td {
-    padding: 0px 156px;
-}
-
-table th {
-   padding: 15px;
-}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #3d3d3d;
+    text-align: left;
+    padding: 25px;
+    border-width: 2px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+ 
