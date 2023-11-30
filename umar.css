@@ -29,7 +29,9 @@ body {
 .text select:hover {
     color: white;
 }
-
+textarea::selection{
+    color: #e91e63;
+}
 textarea {
     top: 60px;
     position: relative;
